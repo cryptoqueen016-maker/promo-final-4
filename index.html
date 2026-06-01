@@ -387,25 +387,25 @@ tr.tbl-section td{background:linear-gradient(90deg,var(--bd),var(--bm));color:#f
 //       Individual Unit Barcode | LBS Cal | Brand_1ph | PPG Code | PPG Description | Wholesale Units per Outer
 const PL=[
   // Hill's Prescription Diet
-  {sku:'5670',    desc:'PD Canine/Feline a/d 24/5.5 oz cs',         lp:72.55,  wup:72.55,  cat:'Dog Wet', bc:'52742567006', lbs:8.25409728,  brand:"Hill's Prescription Diet", ppg:65, ppgD:'DOG PDCAN 24X 156G',          outerUnits:4},
-  {sku:'8605',    desc:'PD Canine b/d 17.6lb bg',                   lp:108.25, wup:108.25, cat:'Dog Dry', bc:'52742860503', lbs:17.5928676,  brand:"Hill's Prescription Diet", ppg:65, ppgD:'DOG PDCAN 24X 156G',          outerUnits:4},
-  {sku:'606266',  desc:'PD Fel c/d Uri Strs+Meta 4(12x85g) cs',     lp:101.19, wup:19.86,  cat:'Cat Wet', bc:'52742038575', lbs:8.9948496,   brand:"Hill's Prescription Diet", ppg:52, ppgD:'CAT ED POUCH ADULT 12x85g',  outerUnits:4},
-  {sku:'606265',  desc:'PD Fel c/d Strs Ckn 4(12x85g) cs',          lp:101.19, wup:19.86,  cat:'Cat Wet', bc:'52742024219', lbs:8.9948496,   brand:"Hill's Prescription Diet", ppg:52, ppgD:'CAT ED POUCH ADULT 12x85g',  outerUnits:4},
-  {sku:'3387',    desc:'PD Fel c/d Strs Ckn&VgStew 24x2.9oz cs',    lp:54.11,  wup:54.11,  cat:'Cat Wet', bc:'52742338705', lbs:4.33869216,  brand:"Hill's Prescription Diet", ppg:53, ppgD:'CAT PD CAN 24X82G',           outerUnits:4},
-  {sku:'603930',  desc:'PD Fel c/d Mul Strs 4lb bg',                 lp:35.02,  wup:35.02,  cat:'Cat Dry', bc:'52742022116', lbs:3.968316,    brand:"Hill's Prescription Diet", ppg:58, ppgD:'CAT PD MINI BAG 1.6 - 1.8KG', outerUnits:4},
-  {sku:'603935',  desc:'PD Fel c/d Mul Strs 8.5lb bg',               lp:71.16,  wup:71.16,  cat:'Cat Dry', bc:'52742022161', lbs:8.5098332,   brand:"Hill's Prescription Diet", ppg:62, ppgD:'CAT PD MED BAG 3.5-4KG',     outerUnits:4},
-  {sku:'603936',  desc:'PD Fel c/d Mul Strs 17.6lb bg',              lp:132.52, wup:132.52, cat:'Cat Dry', bc:'52742022185', lbs:17.5928676,  brand:"Hill's Prescription Diet", ppg:64, ppgD:'CAT PD LRG BAG 7-8KG',       outerUnits:4},
-  {sku:'603823',  desc:'PD Ca c/d+Meta 8.5lb bg',                    lp:71.16,  wup:71.16,  cat:'Dog Dry', bc:'52742020709', lbs:8.5098332,   brand:"Hill's Prescription Diet", ppg:73, ppgD:'DOG PD SMALL 3.86-4KG',      outerUnits:4},
-  {sku:'6238',    desc:'PD c/d Multicare Chkn Feline 24/5.5oz cs',   lp:72.55,  wup:72.55,  cat:'Cat Wet', bc:'52742623801', lbs:8.25409728,  brand:"Hill's Prescription Diet", ppg:55, ppgD:'CAT PD LARGE CAN 24X156G',   outerUnits:4},
-  {sku:'7001',    desc:'PD Ca c/d Mul 12x13oz cs',                   lp:53.65,  wup:53.65,  cat:'Dog Wet', bc:'52742700106', lbs:9.7885128,   brand:"Hill's Prescription Diet", ppg:65, ppgD:'DOG PDCAN 24X 156G',          outerUnits:4},
-  {sku:'3386',    desc:'PD Fel c/d Ckn&VgStew 24x2.9oz cs',          lp:50.02,  wup:50.02,  cat:'Cat Wet', bc:'52742338606', lbs:4.33869216,  brand:"Hill's Prescription Diet", ppg:52, ppgD:'CAT ED POUCH ADULT 12x85g',  outerUnits:4},
+  {sku:'5670',    desc:'PD Canine/Feline a/d 24/5.5 oz cs',         lp:72.55,  wup:72.55,  cat:'Dog Wet', bc:'52742567006', lbs:8.25409728,  brand:"Hill's Prescription Diet", ppg:65, ppgD:'DOG PDCAN 24X 156G',          outerUnits:4, stdCost:32.50},
+  {sku:'8605',    desc:'PD Canine b/d 17.6lb bg',                   lp:108.25, wup:108.25, cat:'Dog Dry', bc:'52742860503', lbs:17.5928676,  brand:"Hill's Prescription Diet", ppg:65, ppgD:'DOG PDCAN 24X 156G',          outerUnits:4, stdCost:48.20},
+  {sku:'606266',  desc:'PD Fel c/d Uri Strs+Meta 4(12x85g) cs',     lp:101.19, wup:19.86,  cat:'Cat Wet', bc:'52742038575', lbs:8.9948496,   brand:"Hill's Prescription Diet", ppg:52, ppgD:'CAT ED POUCH ADULT 12x85g',  outerUnits:4, stdCost:44.80},
+  {sku:'606265',  desc:'PD Fel c/d Strs Ckn 4(12x85g) cs',          lp:101.19, wup:19.86,  cat:'Cat Wet', bc:'52742024219', lbs:8.9948496,   brand:"Hill's Prescription Diet", ppg:52, ppgD:'CAT ED POUCH ADULT 12x85g',  outerUnits:4, stdCost:44.80},
+  {sku:'3387',    desc:'PD Fel c/d Strs Ckn&VgStew 24x2.9oz cs',    lp:54.11,  wup:54.11,  cat:'Cat Wet', bc:'52742338705', lbs:4.33869216,  brand:"Hill's Prescription Diet", ppg:53, ppgD:'CAT PD CAN 24X82G',           outerUnits:4, stdCost:24.10},
+  {sku:'603930',  desc:'PD Fel c/d Mul Strs 4lb bg',                 lp:35.02,  wup:35.02,  cat:'Cat Dry', bc:'52742022116', lbs:3.968316,    brand:"Hill's Prescription Diet", ppg:58, ppgD:'CAT PD MINI BAG 1.6 - 1.8KG', outerUnits:4, stdCost:15.60},
+  {sku:'603935',  desc:'PD Fel c/d Mul Strs 8.5lb bg',               lp:71.16,  wup:71.16,  cat:'Cat Dry', bc:'52742022161', lbs:8.5098332,   brand:"Hill's Prescription Diet", ppg:62, ppgD:'CAT PD MED BAG 3.5-4KG',     outerUnits:4, stdCost:31.70},
+  {sku:'603936',  desc:'PD Fel c/d Mul Strs 17.6lb bg',              lp:132.52, wup:132.52, cat:'Cat Dry', bc:'52742022185', lbs:17.5928676,  brand:"Hill's Prescription Diet", ppg:64, ppgD:'CAT PD LRG BAG 7-8KG',       outerUnits:4, stdCost:59.00},
+  {sku:'603823',  desc:'PD Ca c/d+Meta 8.5lb bg',                    lp:71.16,  wup:71.16,  cat:'Dog Dry', bc:'52742020709', lbs:8.5098332,   brand:"Hill's Prescription Diet", ppg:73, ppgD:'DOG PD SMALL 3.86-4KG',      outerUnits:4, stdCost:31.70},
+  {sku:'6238',    desc:'PD c/d Multicare Chkn Feline 24/5.5oz cs',   lp:72.55,  wup:72.55,  cat:'Cat Wet', bc:'52742623801', lbs:8.25409728,  brand:"Hill's Prescription Diet", ppg:55, ppgD:'CAT PD LARGE CAN 24X156G',   outerUnits:4, stdCost:32.50},
+  {sku:'7001',    desc:'PD Ca c/d Mul 12x13oz cs',                   lp:53.65,  wup:53.65,  cat:'Dog Wet', bc:'52742700106', lbs:9.7885128,   brand:"Hill's Prescription Diet", ppg:65, ppgD:'DOG PDCAN 24X 156G',          outerUnits:4, stdCost:23.90},
+  {sku:'3386',    desc:'PD Fel c/d Ckn&VgStew 24x2.9oz cs',          lp:50.02,  wup:50.02,  cat:'Cat Wet', bc:'52742338606', lbs:4.33869216,  brand:"Hill's Prescription Diet", ppg:52, ppgD:'CAT ED POUCH ADULT 12x85g',  outerUnits:4, stdCost:22.30},
   // Hill's Science Diet
-  {sku:'10302HG', desc:'SD Fel Adt Lt 4x2kg cs',                     lp:145.75, wup:28.50,  cat:'Cat Dry', bc:'52742004914', lbs:17.63696,    brand:"Hill's Science Diet",      ppg:15, ppgD:'CAT ED SMALL BAG ADULT 2KG',  outerUnits:1},
-  {sku:'10303HG', desc:'SD Fel Adt Lt 3.5kg bg',                     lp:64.10,  wup:44.10,  cat:'Cat Dry', bc:'52742004921', lbs:7.71617,     brand:"Hill's Science Diet",      ppg:19, ppgD:'CAT ED MED BAG ADULT 3.5G',   outerUnits:1},
-  {sku:'10406',   desc:'SD Fel Adt Lt Ckn 16lb bg',                  lp:75.70,  wup:85.70,  cat:'Cat Dry', bc:'52742006444', lbs:16.0055412,  brand:"Hill's Science Diet",      ppg:19, ppgD:'CAT ED MED BAG ADULT 3.5G',   outerUnits:1},
-  {sku:'10316HG', desc:'SD Ca Adt Lt 12kg bg',                       lp:153.77, wup:103.77, cat:'Dog Dry', bc:'52742005072', lbs:26.45544,    brand:"Hill's Science Diet",      ppg:40, ppgD:'DOG ED LARGE BAG ADULT 12KG', outerUnits:1},
-  {sku:'1119HG',  desc:'SD Canine Adult Light 4x3 kg cs',            lp:175.25, wup:33.38,  cat:'Dog Dry', bc:'52742111902', lbs:26.45544,    brand:"Hill's Science Diet",      ppg:50, ppgD:'DOG SP CAN ADULT 354gx12',   outerUnits:1},
-  {sku:'10318HG', desc:'SD Ca Adt Lt LB 12kg bg',                    lp:183.77, wup:103.77, cat:'Dog Dry', bc:'52742005096', lbs:26.45544,    brand:"Hill's Science Diet",      ppg:50, ppgD:'DOG SP CAN ADULT 354gx12',   outerUnits:1},
+  {sku:'10302HG', desc:'SD Fel Adt Lt 4x2kg cs',                     lp:145.75, wup:28.50,  cat:'Cat Dry', bc:'52742004914', lbs:17.63696,    brand:"Hill's Science Diet",      ppg:15, ppgD:'CAT ED SMALL BAG ADULT 2KG',  outerUnits:1, stdCost:64.90},
+  {sku:'10303HG', desc:'SD Fel Adt Lt 3.5kg bg',                     lp:64.10,  wup:44.10,  cat:'Cat Dry', bc:'52742004921', lbs:7.71617,     brand:"Hill's Science Diet",      ppg:19, ppgD:'CAT ED MED BAG ADULT 3.5G',   outerUnits:1, stdCost:28.60},
+  {sku:'10406',   desc:'SD Fel Adt Lt Ckn 16lb bg',                  lp:75.70,  wup:85.70,  cat:'Cat Dry', bc:'52742006444', lbs:16.0055412,  brand:"Hill's Science Diet",      ppg:19, ppgD:'CAT ED MED BAG ADULT 3.5G',   outerUnits:1, stdCost:33.70},
+  {sku:'10316HG', desc:'SD Ca Adt Lt 12kg bg',                       lp:153.77, wup:103.77, cat:'Dog Dry', bc:'52742005072', lbs:26.45544,    brand:"Hill's Science Diet",      ppg:40, ppgD:'DOG ED LARGE BAG ADULT 12KG', outerUnits:1, stdCost:68.50},
+  {sku:'1119HG',  desc:'SD Canine Adult Light 4x3 kg cs',            lp:175.25, wup:33.38,  cat:'Dog Dry', bc:'52742111902', lbs:26.45544,    brand:"Hill's Science Diet",      ppg:50, ppgD:'DOG SP CAN ADULT 354gx12',   outerUnits:1, stdCost:78.00},
+  {sku:'10318HG', desc:'SD Ca Adt Lt LB 12kg bg',                    lp:183.77, wup:103.77, cat:'Dog Dry', bc:'52742005096', lbs:26.45544,    brand:"Hill's Science Diet",      ppg:50, ppgD:'DOG SP CAN ADULT 354gx12',   outerUnits:1, stdCost:81.90},
 ];
 
 // ── DATA SOURCE: Shelf_price_base_for_one_week.xlsx ───────────────────────
@@ -501,6 +501,7 @@ window.handlePricelistUpload=function(file){
       const ppgCol    = findCol('PPGCode','ppgcode','ppg');
       const ppgDCol   = findCol('PPGDescription','ppgdesc','ppgdescription');
       const outerCol  = findCol('WholesaleUnitsperOuter','wholesaleunits','outerunits','outer');
+      const stdCostCol= findCol('VFC/ProductStdCost','stdcost','standardcost','vfc','productcost');
 
       if(!skuCol) throw new Error('Cannot find SKU column');
       if(!lpCol)  throw new Error('Cannot find List Price column.\nExpected: "List Price per Ordering Unit EX GST"');
@@ -515,16 +516,17 @@ window.handlePricelistUpload=function(file){
         if(!sku||isNaN(lp)||!bc){skipped++;return;}
         newPL.push({
           sku,
-          desc:    String(row[descCol]||sku).trim(),
+          desc:      String(row[descCol]||sku).trim(),
           lp,
-          wup:     parseFloat(row[wupCol])||lp,
-          cat:     String(row[catCol]||'').trim()||'Unknown',
+          wup:       parseFloat(row[wupCol])||lp,
+          cat:       String(row[catCol]||'').trim()||'Unknown',
           bc,
-          lbs:     parseFloat(row[lbsCol])||0,
-          brand:   String(row[brandCol]||'').trim()||'Unknown',
-          ppg:     parseInt(row[ppgCol])||0,
-          ppgD:    String(row[ppgDCol]||'').trim()||'',
-          outerUnits: parseInt(row[outerCol])||1,
+          lbs:       parseFloat(row[lbsCol])||0,
+          brand:     String(row[brandCol]||'').trim()||'Unknown',
+          ppg:       parseInt(row[ppgCol])||0,
+          ppgD:      String(row[ppgDCol]||'').trim()||'',
+          outerUnits:parseInt(row[outerCol])||1,
+          stdCost:   stdCostCol ? (parseFloat(row[stdCostCol])||0) : 0,
         });
       });
 
@@ -691,37 +693,66 @@ function gi(){
 
 function cs(s,i){
   const sh=SD[s.bc]||{sp:0,vb:0,we:'N/A',upl:null,red:null};
-  const lp=s.lp,mult=lp/s.wup,bun=i.X+1,uom=bun/mult;
-  const disc=lp*i.disc,op=(lp-disc)*i.op,ull=(lp-disc-op)*i.ull;
-  const sd=(lp-disc-op-ull)*i.sd,pd=(lp-disc-op-ull-sd)*i.pd;
-  const custI=disc+op+ull+sd+pd+i.rm+i.coop,pp=lp-custI;
-  const fflA=i.ffl*lp,consI=fflA,fundCost=lp-custI;
-  // Net sales & margin per unit
-  const nsB=lp-custI-consI;   // net sales before promo disc (per unit)
-  const nsBb=nsB*uom;          // net sales before promo disc (per bundle)
-  const nsAb=nsBb*i.X/bun;    // net sales after promo disc (per bundle, free unit = lost revenue)
-  const sw=0.0476*s.lbs,mB=nsB-sw; // margin before promo disc (per unit)
-  const mBb=mB*uom;            // margin before promo disc (per bundle)
-  const mAb=mBb*i.X/bun;      // margin after promo disc (per bundle)
-  const mpB=nsB>0?mB/nsB:0;   // margin % before promo disc
-  const mpA=nsBb>0?mAb/nsBb:0;// margin % after promo disc (vs bundle NS before, shows dilution)
-  const mpD=mpA-mpB;
-  // Volume — use per-SKU rates from file if present, otherwise fall back to sidebar sliders
+  const lp=s.lp, mult=lp/s.wup, bun=i.X+1, uom=bun/mult;
+
+  // ── Customer Investments (cascade) ──────────────────────────────────────
+  const disc=lp*i.disc, op=(lp-disc)*i.op, ull=(lp-disc-op)*i.ull;
+  const sd=(lp-disc-op-ull)*i.sd, pd=(lp-disc-op-ull-sd)*i.pd;
+  const custI=disc+op+ull+sd+pd+i.rm+i.coop, pp=lp-custI;
+  const fflA=i.ffl*lp, consI=fflA, fundCost=lp-custI;
+
+  // ── Net Sales ────────────────────────────────────────────────────────────
+  const nsB  = lp - custI - consI;          // NS before promo disc (per unit)
+  const nsBb = nsB * uom;                   // NS before promo disc (per bundle)
+  const nsAb = nsB * i.X / bun * uom;       // NS after promo disc (per bundle) — X paid units
+
+  // ── Costs (VFC + S&W) × P&L UOM to Bundle Conversion ───────────────────
+  const sw        = 0.0476 * s.lbs;         // Shipping & Warehousing (per unit)
+  const stdCost   = s.stdCost || 0;         // VFC / Product Std Cost (per unit)
+  const totalCost = (stdCost + sw) * uom;   // (VFC + S&W) × P&L UOM to Bundle Conversion
+
+  // ── Margin (Bundle) ──────────────────────────────────────────────────────
+  // Margin before Promo Disc (Bundle) = NS before (Bundle) − totalCost
+  const mBb = nsBb - totalCost;
+  // Margin after Promo Disc (Bundle)  = NS after (Bundle)  − totalCost
+  const mAb = nsAb - totalCost;
+
+  // ── Margin % (per unit, not bundle) ─────────────────────────────────────
+  // Margin before per unit = mBb / uom  (reverse bundle conversion)
+  // NS before per unit     = nsB
+  // Margin % before = Margin before (per unit) ÷ NS before (per unit)
+  const mB  = uom > 0 ? mBb / uom : 0;
+  const mpB = nsB  > 0 ? mB  / nsB  : 0;
+  // NS after per unit = nsB × X/bundle
+  // Margin after per unit = mAb / uom
+  const mAu = uom > 0 ? mAb / uom : 0;
+  const nsAu = nsB * i.X / bun;
+  const mpA  = nsAu > 0 ? mAu / nsAu : 0;
+  const mpD  = mpA - mpB;
+
+  // ── Volume ───────────────────────────────────────────────────────────────
   const uplRate = (sh.upl!==null && sh.upl!==undefined) ? sh.upl : i.upl;
   const redRate = (sh.red!==null && sh.red!==undefined) ? sh.red : i.red;
   const vb=sh.vb, vu=vb*uplRate, vt=vb+vu;
   const vbB=Math.floor(vb/bun), vuB=Math.floor(vu/bun), vtB=vbB+vuB;
   const vr=Math.round(redRate*vtB), vnr=vtB-vr;
-  // Hill's financial results
-  const tnsB=nsBb*vbB;
-  const tnsA=nsAb*vr+nsBb*vnr;
-  const tmB=mBb*vbB;
-  const tmA=mAb*vr+mBb*vnr;
-  const mEp=tnsA>0?tmA/tnsA:0;
-  const tF=consI*vr,iM=tmA-tmB,iNS=tnsA-tnsB,roi=tF?iM/tF:0;
-  const asp=vtB*bun>0?tnsA/(vtB*bun):0;
-  return{lp,mult,bun,uom,sp:sh.sp,vb,vu,vt,disc,op,ull,sd,pd,custI,pp,fflA,consI,fundCost,
-    nsB,nsBb,nsAb,sw,mB,mBb,mAb,mpB,mpA,mpD,
+
+  // ── Hill's Financial Results ─────────────────────────────────────────────
+  const tnsB = nsBb * vbB;
+  const tnsA = nsAb * vr + nsBb * vnr;
+  const tmB  = mBb  * vbB;
+  const tmA  = mAb  * vr + mBb * vnr;
+  const mEp  = tnsA > 0 ? tmA / tnsA : 0;
+  const tF   = consI * vr;
+  const iM   = tmA - tmB;
+  const iNS  = tnsA - tnsB;
+  const roi  = tF ? iM / tF : 0;
+  const asp  = vtB * bun > 0 ? tnsA / (vtB * bun) : 0;
+
+  return{lp,mult,bun,uom,sp:sh.sp,vb,vu,vt,
+    disc,op,ull,sd,pd,custI,pp,fflA,consI,fundCost,
+    nsB,nsBb,nsAb,sw,stdCost,totalCost,mB,
+    mBb,mAb,mpB,mpA,mpD,
     uplRate,redRate,vbB,vuB,vtB,vr,vnr,
     tnsB,tnsA,tmB,tmA,mEp,tF,iM,iNS,roi,asp,we:sh.we||'N/A'};
 }
@@ -822,14 +853,16 @@ function renderSummary(sel,i){
     ['r','Consumer Investments','-'+$f(c.consI),'neg'],
     ['r','Funding of Cost',$f(c.fundCost),'bl'],
     ['sh','Net Sales & Margin (per unit)'],
-    ['r','Net Sales before Promo',$f(c.nsB),''],
-    ['r','Net Sales before Promo (Bundle)',$f(c.nsBb),''],
-    ['r','Net Sales after Promo (Bundle)',$f(c.nsAb),''],
-    ['r','Shipping & Warehousing<small>$0.0476 x lbs</small>','-'+$f(c.sw),'neg'],
-    ['r tot','Margin before Promo (Bundle)',$f(c.mBb),rc(c.mBb)],
-    ['r grd','<strong>Margin after Promo (Bundle)</strong>',$f(c.mAb),rc(c.mAb)],
-    ['r','Margin % before Promo Disc<small>Margin before ÷ NS before (per unit)</small>',pc(c.mpB),''],
-    ['r','Margin % after Promo Disc<small>Margin after ÷ NS before bundle</small>',pc(c.mpA),''],
+    ['r','Net Sales before Promo Disc<small>List − Customer Investments − Consumer Investments</small>',$f(c.nsB),''],
+    ['r','Net Sales before Promo Disc (Bundle)<small>NS before × P&L UOM to Bundle Conv.</small>',$f(c.nsBb),''],
+    ['r','Net Sales after Promo Disc (Bundle)<small>NS before × X ÷ Bundle (paid units only)</small>',$f(c.nsAb),''],
+    ['r','VFC / Product Std Cost<small>From Pricelist col L</small>',$f(c.stdCost),'muted'],
+    ['r','Shipping & Warehousing<small>$0.0476 × lbs (per unit)</small>','-'+$f(c.sw),'neg'],
+    ['r','Total Cost (Bundle)<small>(VFC + S&W) × P&L UOM to Bundle Conv.</small>','-'+$f(c.totalCost),'neg'],
+    ['r tot','<strong>Margin before Promo Disc (Bundle)</strong><small>NS before (Bundle) − Total Cost (Bundle)</small>',$f(c.mBb),rc(c.mBb)],
+    ['r grd','<strong>Margin after Promo Disc (Bundle)</strong><small>NS after (Bundle) − Total Cost (Bundle)</small>',$f(c.mAb),rc(c.mAb)],
+    ['r','Margin % before Promo Disc<small>Margin before (per unit) ÷ NS before (per unit)</small>',pc(c.mpB),''],
+    ['r','Margin % after Promo Disc<small>Margin after (per unit) ÷ NS after (per unit)</small>',pc(c.mpA),''],
     ['r grd','<strong>Margin % Diff</strong>',(c.mpD>=0?'+':'')+pc(c.mpD),c.mpD>=0?'pos':'neg'],
     ['sh','Volume (from Shelf Data)'],
     ['r','Volume Base (units)<small>Scan Volume Lbs from shelf file</small>',n0(c.vb),'muted'],
@@ -842,6 +875,10 @@ function renderSummary(sel,i){
     ['r','Redemption %<small>'+(SD[s.bc]&&SD[s.bc].red!==null?'From shelf file':'From sidebar slider')+'</small>',pc(c.redRate),'muted'],
     ['r','Volume Redeemed (Bundle)<small>Redemption % × Vol Total Bundle</small>',n0(c.vr),''],
     ['r','Volume Non-Redeemed (Bundle)',n0(c.vnr),'muted'],
+    ['r','Volume (Lbs) Base<small>Vol Base (Bundle) × Net Weight Lbs × P&L UOM to Bundle Conv.</small>',(c.vbB*s.lbs*c.uom).toFixed(2),'muted'],
+    ['r','Volume (Lbs) Uplift<small>Vol Uplift (Bundle) × Net Weight Lbs × P&L UOM to Bundle Conv.</small>',Math.floor(c.vuB*s.lbs*c.uom).toLocaleString(),'muted'],
+    ['r','Volume (Units) of Total — Redeemed<small>Vol Redeemed (Bundle) × Bundle Multiples</small>',n0(c.vr*c.bun),''],
+    ['r','Volume (Units) of Total — Non-Redeemed<small>Vol Non-Redeemed (Bundle) × Bundle Multiples</small>',n0(c.vnr*c.bun),'muted'],
     ['sh',"Hill's Financial Results"],
     ['r','Total NS before Promo',$f(c.tnsB),''],
     ['r','Total NS after Promo',$f(c.tnsA),''],
@@ -864,38 +901,88 @@ function renderCompare(sel,i){
   if(!sel.length){$('tabCompare').innerHTML='<div class="no-sel">Select SKUs above.</div>';return;}
   const calcs=sel.map(s=>cs(s,i));
   const defs=[
+    // ── Pricing & UOM ──────────────────────────────────────────────────────
     {sec:'Pricing & UOM'},
-    {l:'List Price',k:'lp',f:$f},{l:'Wholesale Unit Price',k:'wup',f:$f,raw:true},
-    {l:'Multiplier',k:'mult',f:v=>v.toFixed(2)+'x'},{l:'Shelf Price ex-GST',k:'sp',f:v=>v>0?$f(v):'N/A'},
+    {l:'List Price (ex GST)',                    k:'lp',   f:$f},
+    {l:'Wholesale Unit Price',                   k:'wup',  f:$f, raw:true},
+    {l:'Multiplier',                             k:'mult', f:v=>v.toFixed(2)+'x'},
+    {l:'P&L UOM Bundle Conversion',              k:'uom',  f:v=>v.toFixed(4)},
+    {l:'Net Weight (lbs)',                       fn:(c,ci)=>sel[ci].lbs.toFixed(3)+' lbs'},
+    {l:'Shelf Price ex-GST',                     k:'sp',   f:v=>v>0?$f(v):'N/A'},
+    {l:'Shelf Price per box',                    fn:(c,ci)=>c.sp>0?$f(c.sp*c.mult):'N/A'},
+    // ── Customer Investments ───────────────────────────────────────────────
     {sec:'Customer Investments'},
-    {l:'Customer Discount',k:'disc',f:v=>'-'+$f(v),c:'neg'},{l:'Order Profile',k:'op',f:v=>'-'+$f(v),c:'neg'},
-    {l:'Ullage',k:'ull',f:v=>'-'+$f(v),c:'neg'},{l:'SD Rebate',k:'sd',f:v=>'-'+$f(v),c:'neg'},
-    {l:'PD Rebate',k:'pd',f:v=>'-'+$f(v),c:'neg'},
-    {l:'Total Customer Investments',k:'custI',f:v=>'-'+$f(v),c:'neg',tot:true},
-    {l:'Purchase Price',k:'pp',f:$f,c:'pos',grd:true},
-    {sec:'Net Sales & Margin'},
-    {l:'NS before Promo (Bundle)',k:'nsBb',f:$f},{l:'NS after Promo (Bundle)',k:'nsAb',f:$f},
-    {l:'Margin before Bundle',k:'mBb',f:$f,dyn:true,tot:true},
-    {l:'Margin after Bundle',k:'mAb',f:$f,dyn:true,grd:true},
-    {l:'Margin % before',k:'mpB',f:pc},{l:'Margin % after',k:'mpA',f:pc},
-    {l:'Margin % Diff',k:'mpD',f:v=>(v>=0?'+':'')+pc(v),dyn:true,grd:true},
+    {l:'Customer Discount',                      k:'disc',  f:v=>'-'+$f(v), c:'neg'},
+    {l:'Order Profile',                          k:'op',    f:v=>'-'+$f(v), c:'neg'},
+    {l:'Ullage',                                 k:'ull',   f:v=>'-'+$f(v), c:'neg'},
+    {l:'SD Rebate',                              k:'sd',    f:v=>'-'+$f(v), c:'neg'},
+    {l:'PD Rebate',                              k:'pd',    f:v=>'-'+$f(v), c:'neg'},
+    {l:'Retail Media',                           fn:()=>i.rm>0?'-'+$f(i.rm):'$0.00'},
+    {l:'Co-op',                                  fn:()=>i.coop>0?'-'+$f(i.coop):'$0.00'},
+    {l:'Total Customer Investments',             k:'custI', f:v=>'-'+$f(v), c:'neg', tot:true},
+    {l:'Purchase Price',                         k:'pp',    f:$f, c:'pos', grd:true},
+    // ── Consumer & Promo Funding ───────────────────────────────────────────
+    {sec:'Consumer & Promo Funding'},
+    {l:'FFL Rebate (2%×55% × List)',             k:'fflA',     f:v=>'-'+$f(v), c:'neg'},
+    {l:'Consumer Investments',                   k:'consI',    f:v=>'-'+$f(v), c:'neg'},
+    {l:'Funding of Cost',                        k:'fundCost', f:$f, c:'bl'},
+    // ── Net Sales & Margin ─────────────────────────────────────────────────
+    {sec:'Net Sales & Margin (per unit)'},
+    {l:'Net Sales before Promo Disc',                       k:'nsB',       f:$f},
+    {l:'Net Sales before Promo Disc (Bundle)',              k:'nsBb',      f:$f},
+    {l:'Net Sales after Promo Disc (Bundle)',               k:'nsAb',      f:$f},
+    {l:'VFC / Product Std Cost',                           fn:(c,ci)=>$f(sel[ci].stdCost||0)},
+    {l:'Shipping & Warehousing ($0.0476 × lbs)',           k:'sw',        f:v=>'-'+$f(v), c:'neg'},
+    {l:'Total Cost (Bundle) — (VFC + S&W) × UOM Conv.',   k:'totalCost', f:v=>'-'+$f(v), c:'neg'},
+    {l:'Margin before Promo Disc (Bundle)',                 k:'mBb',       f:$f, dyn:true, tot:true},
+    {l:'Margin after Promo Disc (Bundle)',                  k:'mAb',       f:$f, dyn:true, grd:true},
+    {l:'Margin % before Promo Disc',                        k:'mpB',       f:pc},
+    {l:'Margin % after Promo Disc',                         k:'mpA',       f:pc},
+    {l:'Margin % Diff',                                     k:'mpD',       f:v=>(v>=0?'+':'')+pc(v), dyn:true, grd:true},
+    // ── Volume ─────────────────────────────────────────────────────────────
+    {sec:'Volume (from Shelf Data)'},
+    {l:'Volume Base (units)',                    k:'vb',      f:v=>Math.round(v).toLocaleString()},
+    {l:'Volume Uplift %',                        k:'uplRate', f:pc},
+    {l:'Volume Uplift (units)',                  k:'vu',      f:v=>Math.round(v).toLocaleString()},
+    {l:'Volume Total (units)',                   k:'vt',      f:v=>Math.round(v).toLocaleString()},
+    {l:'Volume Base (Bundle)',                   k:'vbB',     f:v=>Math.round(v).toLocaleString()},
+    {l:'Volume Uplift (Bundle)',                 k:'vuB',     f:v=>Math.round(v).toLocaleString()},
+    {l:'Volume Total (Bundle)',                  k:'vtB',     f:v=>Math.round(v).toLocaleString(), tot:true},
+    {l:'Redemption %',                           k:'redRate', f:pc},
+    {l:'Volume Redeemed (Bundle)',               k:'vr',      f:v=>Math.round(v).toLocaleString()},
+    {l:'Volume Non-Redeemed (Bundle)',           k:'vnr',     f:v=>Math.round(v).toLocaleString()},
+    {l:'Volume (Lbs) Base',                     fn:(c,ci)=>(c.vbB*sel[ci].lbs*c.uom).toFixed(2)},
+    {l:'Volume (Lbs) Uplift',                   fn:(c,ci)=>Math.floor(c.vuB*sel[ci].lbs*c.uom).toLocaleString()},
+    {l:'Volume (Units) of Total — Redeemed',    fn:(c)=>Math.round(c.vr*c.bun).toLocaleString()},
+    {l:'Volume (Units) of Total — Non-Redeemed',fn:(c)=>Math.round(c.vnr*c.bun).toLocaleString()},
+    // ── Hill's Financial Results ───────────────────────────────────────────
     {sec:"Hill's Financial Results"},
-    {l:'Total NS after Promo',k:'tnsA',f:$f},{l:'Total Margin after Promo',k:'tmA',f:$f,dyn:true},
-    {l:'Expected Funding',k:'tF',f:v=>'-'+$f(v),c:'neg'},
-    {l:'Incremental Margin',k:'iM',f:v=>(v>=0?'+':'')+$f(v),dyn:true,grd:true},
-    {l:'ROI %',k:'roi',f:v=>pc(v),roi:true,grd:true},
+    {l:'Total NS before Promo',                  k:'tnsB', f:$f},
+    {l:'Total NS after Promo',                   k:'tnsA', f:$f},
+    {l:'Total Margin before Promo',              k:'tmB',  f:$f, dyn:true},
+    {l:'Total Margin after Promo',               k:'tmA',  f:$f, dyn:true},
+    {l:'Expected Total Funding',                 k:'tF',   f:v=>'-'+$f(v), c:'neg'},
+    {l:'Incremental NS',                         k:'iNS',  f:v=>(v>=0?'+':'')+$f(v), dyn:true},
+    {l:'Incremental Margin',                     k:'iM',   f:v=>(v>=0?'+':'')+$f(v), dyn:true, grd:true},
+    {l:'ROI %',                                  k:'roi',  f:v=>pc(v), roi:true, grd:true},
+    {l:'ASP per unit',                           k:'asp',  f:$f},
   ];
   const th='<tr><th>Metric</th>'+sel.map(s=>`<th>${s.sku}<div style="font-weight:400;font-size:9px;opacity:.75;white-space:normal;">${s.desc.substring(0,22)}</div></th>`).join('')+'</tr>';
   const tb=defs.map(d=>{
     if(d.sec) return`<tr class="sec"><td colspan="${sel.length+1}">${d.sec}</td></tr>`;
     const cls=d.grd?'grd':d.tot?'tot':'';
     const tds=calcs.map((c,ci)=>{
-      const raw=d.raw?sel[ci][d.k]:c[d.k];
-      const v=d.f(raw);
-      let tc=d.c||'';
-      if(d.dyn) tc=raw>=0?'pos':'neg';
-      if(d.roi) tc=roiC(raw);
-      return`<td class="${tc}">${v}</td>`;
+      let val, tc=d.c||'';
+      if(d.fn) {
+        val=d.fn(c,ci);
+        tc='';
+      } else {
+        const raw=d.raw?sel[ci][d.k]:c[d.k];
+        val=d.f(raw);
+        if(d.dyn) tc=raw>=0?'pos':'neg';
+        if(d.roi) tc=roiC(raw);
+      }
+      return`<td class="${tc}">${val}</td>`;
     }).join('');
     return`<tr class="${cls}"><td>${d.l}</td>${tds}</tr>`;
   }).join('');
@@ -1014,10 +1101,11 @@ function renderBars(sel,i){
     ${th('Net Sales & Margin (per unit)')}
     ${trDollar('Net Sales before Promo Disc',calcs.map(c=>c.nsB))}
     ${trDollar('Net Sales before Promo Disc (Bundle)',calcs.map(c=>c.nsBb))}
-    ${trDollar('Net Sales after Promo (Bundle)',calcs.map(c=>c.nsAb),'',true)}
+    ${trDollar('Net Sales after Promo Disc (Bundle)',calcs.map(c=>c.nsAb),'',true)}
+    ${trDollar('VFC / Product Std Cost',calcs.map((c,ci)=>skus[ci].stdCost||0),'',false)}
     ${trDollar('Shipping & Warehousing ($0.0476 × lbs)',calcs.map(c=>-c.sw),'tneg')}
-    ${trDollar('Margin before Promo Disc',calcs.map(c=>c.mB),'dyn')}
-    ${trDollar('Margin before Promo Disc (Bundle)',calcs.map(c=>c.mBb),'dyn')}
+    ${trDollar('Total Cost (Bundle) — (VFC + S&W) × P&L UOM Conv.',calcs.map(c=>-c.totalCost),'tneg')}
+    ${trDollar('Margin before Promo Disc (Bundle)',calcs.map(c=>c.mBb),'dyn',true)}
     ${trDollar('Margin after Promo Disc (Bundle)',calcs.map(c=>c.mAb),'dyn',true)}
     ${trPct('Margin % before Promo Disc',calcs.map(c=>c.mpB))}
     ${trPct('Margin % after Promo Disc',calcs.map(c=>c.mpA),'',true)}
@@ -1034,7 +1122,10 @@ function renderBars(sel,i){
     ${trNum('Volume (Units) Total (Bundle)',calcs.map(c=>c.vtB),true)}
     ${trNum('Volume of Total — Redeemed (Bundle)',calcs.map(c=>c.vr))}
     ${trNum('Volume of Total — Non-Redeemed (Bundle)',calcs.map(c=>c.vnr))}
-    ${trNum('Volume (Lbs) Base',calcs.map(c=>c.vbB*s.lbs*c.uom))}
+    ${tr('Volume (Lbs) Base<small>Vol Base (Bundle) × Net Wt Lbs × P&L UOM Conv.</small>',calcs.map((c,ci)=>c.vbB*skus[ci].lbs*c.uom),v=>v.toFixed(2))}
+    ${tr('Volume (Lbs) Uplift<small>Vol Uplift (Bundle) × Net Wt Lbs × P&L UOM Conv.</small>',calcs.map((c,ci)=>Math.floor(c.vuB*skus[ci].lbs*c.uom)),v=>v.toLocaleString())}
+    ${trNum('Volume (Units) of Total — Redeemed<small>Vol Redeemed (Bundle) × Bundle Multiples</small>',calcs.map(c=>c.vr*c.bun))}
+    ${trNum('Volume (Units) of Total — Non-Redeemed<small>Vol Non-Redeemed (Bundle) × Bundle Multiples</small>',calcs.map(c=>c.vnr*c.bun))}
 
     ${th("Hill's Financial Results")}
     ${trDollar('Total Net Sales before Promo',calcs.map(c=>c.tnsB))}
